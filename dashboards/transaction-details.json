@@ -1597,8 +1597,13 @@
   "schemaVersion": 31,
   "style": "dark",
   "tags": [
-    "transaction-details"
+    "transaction-details",
+    "${PRODUCT_REPLACE}",
+    "${ENVIRONMENT_REPLACE}",
+    "${PROJECT_REPLACE}",
+    "${PRODUCT_REPLACE}-${ENVIRONMENT_REPLACE}"
   ],
+
   "templating": {
     "list": [
       {

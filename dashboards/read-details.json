@@ -1072,7 +1072,11 @@
   "schemaVersion": 31,
   "style": "dark",
   "tags": [
-    "read-details"
+    "read-details",
+    "${PRODUCT_REPLACE}",
+    "${ENVIRONMENT_REPLACE}",
+    "${PROJECT_REPLACE}",
+    "${PRODUCT_REPLACE}-${ENVIRONMENT_REPLACE}"
   ],
   "templating": {
     "list": [

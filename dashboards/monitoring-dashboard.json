@@ -1562,7 +1562,11 @@
   "schemaVersion": 30,
   "style": "dark",
   "tags": [
-    "cloud-monitoring-instance"
+    "cloud-monitoring-instance",
+    "${PRODUCT_REPLACE}",
+    "${ENVIRONMENT_REPLACE}",
+    "${PROJECT_REPLACE}",
+    "${PRODUCT_REPLACE}-${ENVIRONMENT_REPLACE}"
   ],
   "templating": {
     "list": [

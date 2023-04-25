@@ -975,7 +975,11 @@
   "schemaVersion": 30,
   "style": "dark",
   "tags": [
-    "cloud-monitoring-database"
+    "cloud-monitoring-database",
+    "${PRODUCT_REPLACE}",
+    "${ENVIRONMENT_REPLACE}",
+    "${PROJECT_REPLACE}",
+    "${PRODUCT_REPLACE}-${ENVIRONMENT_REPLACE}"
   ],
   "templating": {
     "list": [
