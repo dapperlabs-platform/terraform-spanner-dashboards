@@ -126,7 +126,7 @@
   ],
   "panels": [
     {
-      "datasource": "${pds}",
+      "datasource": "${PROM_DATASOURCE_UID_REPLACE}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -212,7 +212,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": "${pds}",
+      "datasource": "${PROM_DATASOURCE_UID_REPLACE}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -295,7 +295,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": "${pds}",
+      "datasource": "${PROM_DATASOURCE_UID_REPLACE}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -377,7 +377,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": "${pds}",
+      "datasource": "${PROM_DATASOURCE_UID_REPLACE}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -460,7 +460,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": "${pds}",
+      "datasource": "${PROM_DATASOURCE_UID_REPLACE}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -546,7 +546,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": "${pds}",
+      "datasource": "${PROM_DATASOURCE_UID_REPLACE}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -629,7 +629,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": "${pds}",
+      "datasource": "${PROM_DATASOURCE_UID_REPLACE}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -712,7 +712,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": "${pds}",
+      "datasource": "${PROM_DATASOURCE_UID_REPLACE}",
       "description": "",
       "fieldConfig": {
         "defaults": {
@@ -1095,7 +1095,7 @@
       },
       {
         "allValue": null,
-        "datasource": "${pds}",
+        "datasource": "${PROM_DATASOURCE_UID_REPLACE}",
         "definition": "label_values(project_id)",
         "description": null,
         "error": null,
@@ -1117,7 +1117,7 @@
       },
       {
         "allValue": ".*",
-        "datasource": "${pds}",
+        "datasource": "${PROM_DATASOURCE_UID_REPLACE}",
         "definition": "label_values(instance_id)",
         "description": null,
         "error": null,
@@ -1139,7 +1139,7 @@
       },
       {
         "allValue": ".*",
-        "datasource": "${pds}",
+        "datasource": "${PROM_DATASOURCE_UID_REPLACE}",
         "definition": "label_values(database)",
         "description": null,
         "error": null,
@@ -1161,7 +1161,7 @@
       },
       {
         "allValue": ".*",
-        "datasource": "${pds}",
+        "datasource": "${PROM_DATASOURCE_UID_REPLACE}",
         "definition": "query_result(topk(10, avg_over_time(database_spanner_read_stats_top_avg_cpu_seconds[${__range_s}s])))",
         "description": null,
         "error": null,

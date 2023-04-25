@@ -238,7 +238,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": "${pds}",
+      "datasource": "${PROM_DATASOURCE_UID_REPLACE}",
       "description": "",
       "fieldConfig": {
         "defaults": {

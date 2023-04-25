@@ -126,7 +126,7 @@
     },
     {
       "datasource": {
-        "uid": "${pds}"
+        "uid": "${PROM_DATASOURCE_UID_REPLACE}"
       },
       "description": "",
       "fieldConfig": {
@@ -229,7 +229,7 @@
     },
     {
       "datasource": {
-        "uid": "${pds}"
+        "uid": "${PROM_DATASOURCE_UID_REPLACE}"
       },
       "description": "",
       "fieldConfig": {
@@ -322,7 +322,7 @@
     },
     {
       "datasource": {
-        "uid": "${pds}"
+        "uid": "${PROM_DATASOURCE_UID_REPLACE}"
       },
       "fieldConfig": {
         "defaults": {
@@ -514,7 +514,7 @@
           ]
         },
         "datasource": {
-          "uid": "${pds}"
+          "uid": "${PROM_DATASOURCE_UID_REPLACE}"
         },
         "definition": "label_values(project_id)",
         "hide": 0,
@@ -541,7 +541,7 @@
           "value": "kiranmayib-test"
         },
         "datasource": {
-          "uid": "${pds}"
+          "uid": "${PROM_DATASOURCE_UID_REPLACE}"
         },
         "definition": "label_values(instance_id)",
         "hide": 0,
@@ -568,7 +568,7 @@
           "value": "$__all"
         },
         "datasource": {
-          "uid": "${pds}"
+          "uid": "${PROM_DATASOURCE_UID_REPLACE}"
         },
         "definition": "label_values(database)",
         "hide": 0,
@@ -595,7 +595,7 @@
           "value": "$__all"
         },
         "datasource": {
-          "uid": "${pds}"
+          "uid": "${PROM_DATASOURCE_UID_REPLACE}"
         },
         "definition": "query_result(topk(10, avg_over_time(database_spanner_lock_stats_top_lock_wait_seconds[${__range_s}s])))",
         "hide": 0,
