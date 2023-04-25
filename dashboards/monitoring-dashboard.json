@@ -112,7 +112,7 @@
   ],
   "panels": [
     {
-      "datasource": "${gcmds}",
+      "datasource": "${GCP_DATASOURCE_UID_REPLACE}",
       "description": "",
       "fieldConfig": {
         "defaults": {
@@ -220,7 +220,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": "${gcmds}",
+      "datasource": "${GCP_DATASOURCE_UID_REPLACE}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -326,7 +326,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": "${gcmds}",
+      "datasource": "${GCP_DATASOURCE_UID_REPLACE}",
       "description": "",
       "fieldConfig": {
         "defaults": {
@@ -453,7 +453,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": "${gcmds}",
+      "datasource": "${GCP_DATASOURCE_UID_REPLACE}",
       "description": "",
       "fieldConfig": {
         "defaults": {
@@ -600,7 +600,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": "${gcmds}",
+      "datasource": "${GCP_DATASOURCE_UID_REPLACE}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -726,7 +726,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": "${gcmds}",
+      "datasource": "${GCP_DATASOURCE_UID_REPLACE}",
       "description": "",
       "fieldConfig": {
         "defaults": {
@@ -839,7 +839,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": "${gcmds}",
+      "datasource": "${GCP_DATASOURCE_UID_REPLACE}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -1005,7 +1005,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": "${gcmds}",
+      "datasource": "${GCP_DATASOURCE_UID_REPLACE}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -1116,7 +1116,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": "${gcmds}",
+      "datasource": "${GCP_DATASOURCE_UID_REPLACE}",
       "description": "",
       "fieldConfig": {
         "defaults": {
@@ -1233,7 +1233,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": "${gcmds}",
+      "datasource": "${GCP_DATASOURCE_UID_REPLACE}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -1344,7 +1344,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": "${gcmds}",
+      "datasource": "${GCP_DATASOURCE_UID_REPLACE}",
       "description": "",
       "fieldConfig": {
         "defaults": {
@@ -1451,7 +1451,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": "${gcmds}",
+      "datasource": "${GCP_DATASOURCE_UID_REPLACE}",
       "description": "",
       "fieldConfig": {
         "defaults": {
@@ -1602,7 +1602,7 @@
       },
       {
         "allValue": null,
-        "datasource": "${gcmds}",
+        "datasource": "${GCP_DATASOURCE_UID_REPLACE}",
         "definition": "",
         "description": null,
         "error": null,
@@ -1630,7 +1630,7 @@
       },
       {
         "allValue": null,
-        "datasource": "${gcmds}",
+        "datasource": "${GCP_DATASOURCE_UID_REPLACE}",
         "definition": "",
         "description": "Instance",
         "error": null,
@@ -1659,7 +1659,7 @@
       },
       {
         "allValue": ".*",
-        "datasource": "${gcmds}",
+        "datasource": "${GCP_DATASOURCE_UID_REPLACE}",
         "definition": "",
         "description": null,
         "error": null,
