@@ -1,6 +1,20 @@
 ## Example
 
-TODO
+```tf
+module "spanner_dashboards" {
+  source               = "github.com/dapperlabs-platform/terraform-spanner-dashboards?ref=main"
+  folder_id            = "folder-id-goes-here"
+  gcp_datasource       = "Product GCP Metrics"
+  gcp_datasource_uid   = "datasource-id-goes-here"
+  prom_datasource      = "Product Prometheus Metrics"
+  prom_datasource_uid  = "datasource-id-goes-here"
+  notification_channel = "id-for-grafana-notification"
+  product_name         = "Product That Is Awesome"
+  project_name         = "product-staging"
+  environment          = "staging"
+  service_name         = "product-infrastructure"
+}
+```
 
 NOTE: If you want to use this you must have the `opentelemetry-collector-contrib` collector installed and pulling metrics to your Prometheus instance AND have access to the GCP Spanner Metrics.
 
@@ -30,7 +44,6 @@ No modules.
 | Name | Type |
 |------|------|
 | [grafana_dashboard.spanner](https://registry.terraform.io/providers/grafana/grafana/latest/docs/resources/dashboard) | resource |
-| [grafana_folder.env_folder](https://registry.terraform.io/providers/grafana/grafana/latest/docs/resources/folder) | resource |
 | [random_string.random](https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/string) | resource |
 
 ## Inputs
@@ -39,7 +52,7 @@ No modules.
 |------|-------------|------|---------|:--------:|
 | <a name="input_dashboards"></a> [dashboards](#input\_dashboards) | Install these dashboards | `list(any)` | <pre>[<br>  "active-queries-summary",<br>  "database-dashboard",<br>  "lock-insights",<br>  "monitoring-dashboard",<br>  "query-details",<br>  "query-insights",<br>  "read-details",<br>  "read-insights",<br>  "transaction-details",<br>  "transaction-insights"<br>]</pre> | no |
 | <a name="input_environment"></a> [environment](#input\_environment) | Environment | `string` | n/a | yes |
-| <a name="input_folder_name"></a> [folder\_name](#input\_folder\_name) | Grafana Folder Name | `string` | n/a | yes |
+| <a name="input_folder_id"></a> [folder\_id](#input\_folder\_id) | Grafana Folder ID | `string` | n/a | yes |
 | <a name="input_gcp_datasource"></a> [gcp\_datasource](#input\_gcp\_datasource) | GCP Datasource | `string` | n/a | yes |
 | <a name="input_gcp_datasource_uid"></a> [gcp\_datasource\_uid](#input\_gcp\_datasource\_uid) | GCP Datasource UID | `string` | n/a | yes |
 | <a name="input_notification_channel"></a> [notification\_channel](#input\_notification\_channel) | Notification Channel | `string` | n/a | yes |

@@ -1,5 +1,5 @@
-variable "folder_name" {
-  description = "Grafana Folder Name"
+variable "folder_id" {
+  description = "Grafana Folder ID"
   type        = string
 }
 

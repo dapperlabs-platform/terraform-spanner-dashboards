@@ -17,12 +17,8 @@ resource "random_string" "random" {
   special  = false
 }
 
-resource "grafana_folder" "env_folder" {
-  title = var.folder_name
-}
-
 resource "grafana_dashboard" "spanner" {
-  folder    = grafana_folder.env_folder.id
+  folder    = var.folder_id
   for_each  = local.dashboard_set
   overwrite = var.overwrite_dashboard
 
