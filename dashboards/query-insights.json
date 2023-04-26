@@ -2664,7 +2664,7 @@
                 "value": [
                   {
                     "title": "View Query details",
-                    "url": "/d/cRMUiFvny/query-details?var-project=${__data.fields.Project}﻿&var-instance=﻿${__data.fields.Instance}﻿&var-database=﻿${__data.fields.Database}﻿&﻿$${__url_time_range}&var-query_topn=${__data.fields.Fingerprint}"
+                    "url": "/d/cRMUiFvny/query-details?var-project=$${__data.fields.Project}&var-instance=$${__data.fields.Instance}&var-database=$${__data.fields.Database}&$${__url_time_range}&var-query_topn=$${__data.fields.Fingerprint}"
                   }
                 ]
               }

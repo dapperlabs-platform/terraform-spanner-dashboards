@@ -307,7 +307,7 @@
       "targets": [
         {
           "exemplar": false,
-          "expr": "sum by (row_range_start_key) (database_spanner_lock_stats_top_lock_wait_seconds{database=~\"$${database}\",instance_id=~\"$${instance}\",project_id=~\"$${project}\", row_range_start_key=~\"${lock_topn}\"})",
+          "expr": "sum by (row_range_start_key) (database_spanner_lock_stats_top_lock_wait_seconds{database=~\"$${database}\",instance_id=~\"$${instance}\",project_id=~\"$${project}\", row_range_start_key=~\"$${lock_topn}\"})",
           "format": "time_series",
           "instant": false,
           "interval": "",
@@ -405,7 +405,7 @@
       "targets": [
         {
           "exemplar": false,
-          "expr": "database_spanner_lock_stats_top_lock_wait_seconds{database=~\"$${database}\",instance_id=~\"$${instance}\",project_id=~\"$${project}\", row_range_start_key=~\"${lock_topn}\"}",
+          "expr": "database_spanner_lock_stats_top_lock_wait_seconds{database=~\"$${database}\",instance_id=~\"$${instance}\",project_id=~\"$${project}\", row_range_start_key=~\"$${lock_topn}\"}",
           "format": "table",
           "interval": "",
           "legendFormat": "{{row_range_start_key}}",
