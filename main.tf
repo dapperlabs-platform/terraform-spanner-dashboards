@@ -8,7 +8,8 @@ terraform {
 }
 
 locals {
-  dashboard_set = toset(var.dashboards)
+  dashboard_set          = toset(var.dashboards)
+  alt_link_id_dashboards = toset("database-dashboard", "monitoring-dashboard", "query-insights", "read-insights", "transaction-insights")
   dashboard_uids = {
     "database-dashboard"   = random_string.random["lock-insights"].result,
     "monitoring-dashboard" = random_string.random["transaction-insights"].result,
@@ -16,11 +17,12 @@ locals {
     "read-insights"        = random_string.random["read-details"].result,
     "transaction-insights" = random_string.random["transaction-details"].result,
   }
+  dashboard_ids = { for d in local.alt_link_id_dashboards : d => local.dashboard_uids[d] }
 }
 
 resource "null_resource" "debug_dashboard_uids" {
   provisioner "local-exec" {
-    command = "echo ${jsonencode(local.dashboard_uids)}"
+    command = "echo ${jsonencode(local.dashboard_uids)} && echo ${jsonencode(local.dashboard_ids)}"
   }
 }
 
@@ -48,7 +50,7 @@ resource "grafana_dashboard" "spanner" {
       PROM_DATASOURCE_UID_REPLACE = var.prom_datasource_uid,
       SERVICE_REPLACE             = var.service_name,
       UID_REPLACE                 = random_string.random[each.key].result
-      ALT_LINK_UID                = "nope"
+      ALT_LINK_UID                = local.dashboard_ids[each.key]
     }
   )
 }
