@@ -516,7 +516,7 @@
                 "value": [
                   {
                     "title": "View Query Insights",
-                    "url": "d/cRMUiFvnz/query-insights?${__all_variables}&var-query_topn=All&${__url_time_range}"
+                    "url": "d/cRMUiFvnz/query-insights?$${__all_variables}&var-query_topn=All&$${__url_time_range}"
                   }
                 ]
               }
@@ -533,7 +533,7 @@
                 "value": [
                   {
                     "title": "View Transaction Insights",
-                    "url": "/d/mnLe_evnk/transaction-insights?${__all_variables}&var-query_topn=All&${__url_time_range}"
+                    "url": "/d/mnLe_evnk/transaction-insights?$${__all_variables}&var-query_topn=All&$${__url_time_range}"
                   }
                 ]
               }

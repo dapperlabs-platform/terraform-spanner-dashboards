@@ -1692,7 +1692,7 @@
       {
         "allValue": ".*",
         "datasource": "${PROM_DATASOURCE_UID_REPLACE}",
-        "definition": "query_result(topk(10, avg_over_time(database_spanner_txn_stats_top_avg_total_latency_seconds[${__range_s}s])))",
+        "definition": "query_result(topk(10, avg_over_time(database_spanner_txn_stats_top_avg_total_latency_seconds[$${__range_s}s])))",
         "description": null,
         "error": null,
         "hide": 0,
@@ -1702,7 +1702,7 @@
         "name": "txn_topn",
         "options": [],
         "query": {
-          "query": "query_result(topk(10, avg_over_time(database_spanner_txn_stats_top_avg_total_latency_seconds[${__range_s}s])))",
+          "query": "query_result(topk(10, avg_over_time(database_spanner_txn_stats_top_avg_total_latency_seconds[$${__range_s}s])))",
           "refId": "StandardVariableQuery"
         },
         "refresh": 2,

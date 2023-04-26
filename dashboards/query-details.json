@@ -204,7 +204,7 @@
       "targets": [
         {
           "exemplar": false,
-          "expr": "avg by (project_id,instance_id,database,query_text)(database_spanner_query_stats_top_avg_cpu_seconds{query_text_fingerprint=\"${query_topn}\", database=\"$database\", instance_id=\"$instance\", project_id=\"$project\"})",
+          "expr": "avg by (project_id,instance_id,database,query_text)(database_spanner_query_stats_top_avg_cpu_seconds{query_text_fingerprint=\"$${query_topn}\", database=\"$database\", instance_id=\"$instance\", project_id=\"$project\"})",
           "format": "time_series",
           "hide": false,
           "interval": "",
@@ -1159,7 +1159,7 @@
       {
         "allValue": null,
         "datasource": "${PROM_DATASOURCE_UID_REPLACE}",
-        "definition": "query_result(topk(10, avg_over_time(database_spanner_query_stats_top_avg_cpu_seconds[${__range_s}s])))",
+        "definition": "query_result(topk(10, avg_over_time(database_spanner_query_stats_top_avg_cpu_seconds[$${__range_s}s])))",
         "description": null,
         "error": null,
         "hide": 0,
@@ -1169,7 +1169,7 @@
         "name": "query_topn",
         "options": [],
         "query": {
-          "query": "query_result(topk(10, avg_over_time(database_spanner_query_stats_top_avg_cpu_seconds[${__range_s}s])))",
+          "query": "query_result(topk(10, avg_over_time(database_spanner_query_stats_top_avg_cpu_seconds[$${__range_s}s])))",
           "refId": "StandardVariableQuery"
         },
         "refresh": 2,

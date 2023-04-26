@@ -201,7 +201,7 @@
       "targets": [
         {
           "exemplar": false,
-          "expr": "sum by (database) (database_spanner_lock_stats_total_total_lock_wait_seconds{database=~\"${database}\",instance_id=~\"${instance}\",project_id=~\"${project}\"})",
+          "expr": "sum by (database) (database_spanner_lock_stats_total_total_lock_wait_seconds{database=~\"$${database}\",instance_id=~\"$${instance}\",project_id=~\"$${project}\"})",
           "format": "time_series",
           "instant": false,
           "interval": "",
@@ -307,7 +307,7 @@
       "targets": [
         {
           "exemplar": false,
-          "expr": "sum by (row_range_start_key) (database_spanner_lock_stats_top_lock_wait_seconds{database=~\"${database}\",instance_id=~\"${instance}\",project_id=~\"${project}\", row_range_start_key=~\"${lock_topn}\"})",
+          "expr": "sum by (row_range_start_key) (database_spanner_lock_stats_top_lock_wait_seconds{database=~\"$${database}\",instance_id=~\"$${instance}\",project_id=~\"$${project}\", row_range_start_key=~\"${lock_topn}\"})",
           "format": "time_series",
           "instant": false,
           "interval": "",
@@ -405,7 +405,7 @@
       "targets": [
         {
           "exemplar": false,
-          "expr": "database_spanner_lock_stats_top_lock_wait_seconds{database=~\"${database}\",instance_id=~\"${instance}\",project_id=~\"${project}\", row_range_start_key=~\"${lock_topn}\"}",
+          "expr": "database_spanner_lock_stats_top_lock_wait_seconds{database=~\"$${database}\",instance_id=~\"$${instance}\",project_id=~\"$${project}\", row_range_start_key=~\"${lock_topn}\"}",
           "format": "table",
           "interval": "",
           "legendFormat": "{{row_range_start_key}}",
@@ -601,7 +601,7 @@
         "datasource": {
           "uid": "${PROM_DATASOURCE_UID_REPLACE}"
         },
-        "definition": "query_result(topk(10, avg_over_time(database_spanner_lock_stats_top_lock_wait_seconds[${__range_s}s])))",
+        "definition": "query_result(topk(10, avg_over_time(database_spanner_lock_stats_top_lock_wait_seconds[$${__range_s}s])))",
         "hide": 0,
         "includeAll": true,
         "label": "Top 10 locks",
@@ -609,7 +609,7 @@
         "name": "lock_topn",
         "options": [],
         "query": {
-          "query": "query_result(topk(10, avg_over_time(database_spanner_lock_stats_top_lock_wait_seconds[${__range_s}s])))",
+          "query": "query_result(topk(10, avg_over_time(database_spanner_lock_stats_top_lock_wait_seconds[$${__range_s}s])))",
           "refId": "StandardVariableQuery"
         },
         "refresh": 1,

@@ -761,7 +761,7 @@
               "links": [
                 {
                   "title": "View Read details",
-                  "url": "/d/amO53Tdnz/read-details?var-project=${__field.labels.project_id}﻿&var-instance=﻿${__field.labels.instance_id}﻿&var-database=﻿${__field.labels.database}﻿&var-read_columns_topn=${__field.labels.fingerprint}&﻿${__url_time_range}﻿"
+                  "url": "/d/amO53Tdnz/read-details?var-project=$${__field.labels.project_id}﻿&var-instance=﻿${__field.labels.instance_id}﻿&var-database=﻿${__field.labels.database}﻿&var-read_columns_topn=$${__field.labels.fingerprint}&﻿$${__url_time_range}﻿"
                 }
               ],
               "mappings": [],
@@ -855,7 +855,7 @@
               "links": [
                 {
                   "title": "View Read details",
-                  "url": "/d/amO53Tdnz/read-details?var-project=${__field.labels.project_id}﻿&var-instance=﻿${__field.labels.instance_id}﻿&var-database=﻿${__field.labels.database}﻿&var-read_columns_topn=${__field.labels.fingerprint}&﻿${__url_time_range}﻿"
+                  "url": "/d/amO53Tdnz/read-details?var-project=$${__field.labels.project_id}﻿&var-instance=﻿${__field.labels.instance_id}﻿&var-database=﻿${__field.labels.database}﻿&var-read_columns_topn=$${__field.labels.fingerprint}&﻿$${__url_time_range}﻿"
                 }
               ],
               "mappings": [],
@@ -947,7 +947,7 @@
               "links": [
                 {
                   "title": "View Read details",
-                  "url": "/d/amO53Tdnz/read-details?var-project=${__field.labels.project_id}﻿&var-instance=﻿${__field.labels.instance_id}﻿&var-database=﻿${__field.labels.database}﻿&var-read_columns_topn=${__field.labels.fingerprint}&﻿${__url_time_range}﻿"
+                  "url": "/d/amO53Tdnz/read-details?var-project=$${__field.labels.project_id}﻿&var-instance=﻿${__field.labels.instance_id}﻿&var-database=﻿${__field.labels.database}﻿&var-read_columns_topn=$${__field.labels.fingerprint}&﻿$${__url_time_range}﻿"
                 }
               ],
               "mappings": [],
@@ -1038,7 +1038,7 @@
               "links": [
                 {
                   "title": "View Read details",
-                  "url": "/d/amO53Tdnz/read-details?var-project=${__field.labels.project_id}﻿&var-instance=﻿${__field.labels.instance_id}﻿&var-database=﻿${__field.labels.database}﻿&var-read_columns_topn=${__field.labels.fingerprint}&﻿${__url_time_range}﻿"
+                  "url": "/d/amO53Tdnz/read-details?var-project=$${__field.labels.project_id}﻿&var-instance=﻿${__field.labels.instance_id}﻿&var-database=﻿${__field.labels.database}﻿&var-read_columns_topn=$${__field.labels.fingerprint}&﻿$${__url_time_range}﻿"
                 }
               ],
               "mappings": [],
@@ -1130,7 +1130,7 @@
               "links": [
                 {
                   "title": "View Read details",
-                  "url": "/d/amO53Tdnz/read-details?var-project=${__field.labels.project_id}﻿&var-instance=﻿${__field.labels.instance_id}﻿&var-database=﻿${__field.labels.database}﻿&var-read_columns_topn=${__field.labels.fingerprint}&﻿${__url_time_range}﻿"
+                  "url": "/d/amO53Tdnz/read-details?var-project=$${__field.labels.project_id}﻿&var-instance=﻿${__field.labels.instance_id}﻿&var-database=﻿${__field.labels.database}﻿&var-read_columns_topn=$${__field.labels.fingerprint}&﻿$${__url_time_range}﻿"
                 }
               ],
               "mappings": [],
@@ -1224,7 +1224,7 @@
               "links": [
                 {
                   "title": "View Read details",
-                  "url": "/d/amO53Tdnz/read-details?var-project=${__field.labels.project_id}﻿&var-instance=﻿${__field.labels.instance_id}﻿&var-database=﻿${__field.labels.database}﻿&var-read_columns_topn=${__field.labels.fingerprint}&﻿${__url_time_range}﻿"
+                  "url": "/d/amO53Tdnz/read-details?var-project=$${__field.labels.project_id}﻿&var-instance=﻿${__field.labels.instance_id}﻿&var-database=﻿${__field.labels.database}﻿&var-read_columns_topn=$${__field.labels.fingerprint}&﻿$${__url_time_range}﻿"
                 }
               ],
               "mappings": [],
@@ -1316,7 +1316,7 @@
               "links": [
                 {
                   "title": "View Read details",
-                  "url": "/d/amO53Tdnz/read-details?var-project=${__field.labels.project_id}﻿&var-instance=﻿${__field.labels.instance_id}﻿&var-database=﻿${__field.labels.database}﻿&var-read_columns_topn=${__field.labels.fingerprint}&﻿${__url_time_range}﻿"
+                  "url": "/d/amO53Tdnz/read-details?var-project=$${__field.labels.project_id}﻿&var-instance=﻿${__field.labels.instance_id}﻿&var-database=﻿${__field.labels.database}﻿&var-read_columns_topn=$${__field.labels.fingerprint}&﻿$${__url_time_range}﻿"
                 }
               ],
               "mappings": [],
@@ -1410,7 +1410,7 @@
                     "value": [
                       {
                         "title": "View Read details",
-                        "url": "/d/amO53Tdnz/read-details?var-project=${__data.fields.Project}﻿&var-instance=﻿${__data.fields.Instance}﻿&var-database=﻿${__data.fields.Database}﻿&var-read_columns_topn=${__data.fields.Fingerprint}&﻿${__url_time_range}﻿"
+                        "url": "/d/amO53Tdnz/read-details?var-project=${__data.fields.Project}﻿&var-instance=﻿${__data.fields.Instance}﻿&var-database=﻿${__data.fields.Database}﻿&var-read_columns_topn=${__data.fields.Fingerprint}&﻿$${__url_time_range}﻿"
                       }
                     ]
                   },
@@ -1850,7 +1850,7 @@
       {
         "allValue": ".*",
         "datasource": "Prometheus",
-        "definition": "query_result(topk(10, avg_over_time(database_spanner_read_stats_top_avg_cpu_seconds[${__range_s}s])))",
+        "definition": "query_result(topk(10, avg_over_time(database_spanner_read_stats_top_avg_cpu_seconds[$${__range_s}s])))",
         "description": null,
         "error": null,
         "hide": 0,
@@ -1860,7 +1860,7 @@
         "name": "read_columns_topn",
         "options": [],
         "query": {
-          "query": "query_result(topk(10, avg_over_time(database_spanner_read_stats_top_avg_cpu_seconds[${__range_s}s])))",
+          "query": "query_result(topk(10, avg_over_time(database_spanner_read_stats_top_avg_cpu_seconds[$${__range_s}s])))",
           "refId": "StandardVariableQuery"
         },
         "refresh": 2,

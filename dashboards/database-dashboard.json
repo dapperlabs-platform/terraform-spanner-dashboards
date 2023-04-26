@@ -176,7 +176,7 @@
                   {
                     "targetBlank": false,
                     "title": "View Query Insights",
-                    "url": "d/cRMUiFvnz/query-insights?﻿${project:queryparam}﻿&﻿${instance:queryparam}﻿&var-database=${__field.labels[\"metric.label.database\"]}&﻿${__url_time_range}"
+                    "url": "d/cRMUiFvnz/query-insights?$${project:queryparam}&$${instance:queryparam}&var-database=$${__field.labels[\"metric.label.database\"]}&$$${__url_time_range}"
                   }
                 ]
               }
@@ -276,7 +276,7 @@
           "links": [
             {
               "title": "View Lock Insights",
-              "url": "/d/Z3mSctD7z/lock-insights?﻿var-project=${__field.labels.project_id}&var-instance=${__field.labels.instance_id}&var-database=${__field.labels.database}&﻿${__url_time_range}"
+              "url": "/d/Z3mSctD7z/lock-insights?﻿var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&﻿$${__url_time_range}"
             }
           ],
           "mappings": [],

@@ -1166,7 +1166,7 @@
       {
         "allValue": ".*",
         "datasource": "${PROM_DATASOURCE_UID_REPLACE}",
-        "definition": "query_result(topk(10, avg_over_time(database_spanner_read_stats_top_avg_cpu_seconds[${__range_s}s])))",
+        "definition": "query_result(topk(10, avg_over_time(database_spanner_read_stats_top_avg_cpu_seconds[$${__range_s}s])))",
         "description": null,
         "error": null,
         "hide": 0,
@@ -1176,7 +1176,7 @@
         "name": "read_columns_topn",
         "options": [],
         "query": {
-          "query": "query_result(topk(10, avg_over_time(database_spanner_read_stats_top_avg_cpu_seconds[${__range_s}s])))",
+          "query": "query_result(topk(10, avg_over_time(database_spanner_read_stats_top_avg_cpu_seconds[$${__range_s}s])))",
           "refId": "StandardVariableQuery"
         },
         "refresh": 2,

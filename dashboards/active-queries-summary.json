@@ -188,7 +188,7 @@
       "targets": [
         {
           "exemplar": false,
-          "expr": "sum by (database) (database_spanner_active_queries_summary_active_count{database=~\"${database}\",instance_id=~\"${instance}\",project_id=~\"${project}\"})",
+          "expr": "sum by (database) (database_spanner_active_queries_summary_active_count{database=~\"$${database}\",instance_id=~\"$${instance}\",project_id=~\"$${project}\"})",
           "format": "time_series",
           "instant": false,
           "interval": "",
@@ -277,7 +277,7 @@
       "targets": [
         {
           "exemplar": false,
-          "expr": "sum by (database) (database_spanner_active_queries_summary_count_older_than_1s{database=~\"${database}\",instance_id=~\"${instance}\",project_id=~\"${project}\"})",
+          "expr": "sum by (database) (database_spanner_active_queries_summary_count_older_than_1s{database=~\"$${database}\",instance_id=~\"$${instance}\",project_id=~\"$${project}\"})",
           "format": "time_series",
           "instant": false,
           "interval": "",
@@ -366,7 +366,7 @@
       "targets": [
         {
           "exemplar": false,
-          "expr": "sum by (database) (database_spanner_active_queries_summary_count_older_than_10s{database=~\"${database}\",instance_id=~\"${instance}\",project_id=~\"${project}\"})",
+          "expr": "sum by (database) (database_spanner_active_queries_summary_count_older_than_10s{database=~\"$${database}\",instance_id=~\"$${instance}\",project_id=~\"$${project}\"})",
           "format": "time_series",
           "instant": false,
           "interval": "",
@@ -454,7 +454,7 @@
       "targets": [
         {
           "exemplar": false,
-          "expr": "sum by (database) (database_spanner_active_queries_summary_count_older_than_100s{database=~\"${database}\",instance_id=~\"${instance}\",project_id=~\"${project}\"})",
+          "expr": "sum by (database) (database_spanner_active_queries_summary_count_older_than_100s{database=~\"$${database}\",instance_id=~\"$${instance}\",project_id=~\"$${project}\"})",
           "format": "time_series",
           "instant": false,
           "interval": "",
