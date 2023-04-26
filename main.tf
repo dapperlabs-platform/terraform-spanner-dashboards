@@ -9,7 +9,7 @@ terraform {
 
 locals {
   dashboard_set          = toset(var.dashboards)
-  alt_link_id_dashboards = toset("database-dashboard", "monitoring-dashboard", "query-insights", "read-insights", "transaction-insights")
+  alt_link_id_dashboards = ["database-dashboard", "monitoring-dashboard", "query-insights", "read-insights", "transaction-insights"]
   dashboard_uids = {
     "database-dashboard"   = random_string.random["lock-insights"].result,
     "monitoring-dashboard" = random_string.random["transaction-insights"].result,
