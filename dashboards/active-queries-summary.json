@@ -571,7 +571,7 @@
   },
   "timepicker": {},
   "timezone": "",
-  "title": "Active Queries Summary",
+  "title": "Spanner Active Queries Summary",
   "uid": "${UID_REPLACE}",
   "version": 3
 }

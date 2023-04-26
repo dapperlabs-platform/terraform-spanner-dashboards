@@ -1729,7 +1729,7 @@
   },
   "timepicker": {},
   "timezone": "",
-  "title": "Monitoring dashboard",
+  "title": "Spanner Monitoring dashboard",
   "uid": "${UID_REPLACE}",
   "version": 2
 }

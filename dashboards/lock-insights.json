@@ -626,7 +626,7 @@
   },
   "timepicker": {},
   "timezone": "",
-  "title": "Lock Insights",
+  "title": "Spanner Lock Insights",
   "uid": "${UID_REPLACE}",
   "version": 2,
   "weekStart": ""

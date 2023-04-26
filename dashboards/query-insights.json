@@ -3353,7 +3353,7 @@
   },
   "timepicker": {},
   "timezone": "",
-  "title": "Query Insights",
+  "title": "Spanner Query Insights",
   "uid": "${UID_REPLACE}",
   "version": 3,
   "weekStart": ""

@@ -3123,7 +3123,7 @@
   },
   "timepicker": {},
   "timezone": "",
-  "title": "Transaction Insights",
+  "title": "Spanner Transaction Insights",
   "uid": "${UID_REPLACE}",
   "version": 2,
   "weekStart": ""

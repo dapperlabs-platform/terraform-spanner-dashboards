@@ -1186,7 +1186,7 @@
   },
   "timepicker": {},
   "timezone": "",
-  "title": "Query details",
+  "title": "Spanner Query details",
   "uid": "${UID_REPLACE}",
   "version": 9
 }

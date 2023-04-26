@@ -1193,7 +1193,7 @@
   },
   "timepicker": {},
   "timezone": "",
-  "title": "Read details",
+  "title": "Spanner Read details",
   "uid": "${UID_REPLACE}",
   "version": 3
 }

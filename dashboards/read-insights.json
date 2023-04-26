@@ -1877,7 +1877,7 @@
   },
   "timepicker": {},
   "timezone": "",
-  "title": "Read Insights",
+  "title": "Spanner Read Insights",
   "uid": "${UID_REPLACE}",
   "version": 5
 }

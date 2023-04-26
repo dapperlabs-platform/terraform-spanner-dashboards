@@ -1719,7 +1719,7 @@
   },
   "timepicker": {},
   "timezone": "",
-  "title": "Transaction details",
+  "title": "Spanner Transaction details",
   "uid": "${UID_REPLACE}",
   "version": 5
 }
