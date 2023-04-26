@@ -67,7 +67,8 @@
       "includeVars": true,
       "keepTime": true,
       "tags": [
-        "cloud-monitoring-instance"
+        "cloud-monitoring-instance",
+        "${PRODUCT_REPLACE}-${ENVIRONMENT_REPLACE}"
       ],
       "targetBlank": false,
       "title": "Instance",
@@ -81,7 +82,8 @@
       "includeVars": true,
       "keepTime": true,
       "tags": [
-        "cloud-monitoring-database"
+        "cloud-monitoring-database",
+        "${PRODUCT_REPLACE}-${ENVIRONMENT_REPLACE}"
       ],
       "targetBlank": false,
       "title": "Database",
@@ -95,7 +97,8 @@
       "includeVars": true,
       "keepTime": true,
       "tags": [
-        "query-insights"
+        "query-insights",
+        "${PRODUCT_REPLACE}-${ENVIRONMENT_REPLACE}"
       ],
       "targetBlank": false,
       "title": "Query Insights",
@@ -109,7 +112,8 @@
       "includeVars": true,
       "keepTime": true,
       "tags": [
-        "lock-insights"
+        "lock-insights",
+        "${PRODUCT_REPLACE}-${ENVIRONMENT_REPLACE}"
       ],
       "targetBlank": false,
       "title": "Lock Insights",
@@ -137,7 +141,8 @@
       "includeVars": true,
       "keepTime": true,
       "tags": [
-        "read-insights"
+        "read-insights",
+        "${PRODUCT_REPLACE}-${ENVIRONMENT_REPLACE}"
       ],
       "targetBlank": false,
       "title": "Read Insights",
