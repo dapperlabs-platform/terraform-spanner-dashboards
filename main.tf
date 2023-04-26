@@ -9,7 +9,6 @@ terraform {
 
 locals {
   dashboard_set = toset(var.dashboards)
-  // alt_link_id_dashboards = ["database-dashboard", "monitoring-dashboard", "query-insights", "read-insights", "transaction-insights"]
   dashboard_uids = {
     "database-dashboard"     = random_string.random["lock-insights"].result,
     "monitoring-dashboard"   = random_string.random["transaction-insights"].result,
@@ -22,14 +21,7 @@ locals {
     "read-details"           = "does-not-matter",
     "transaction-details"    = "does-not-matter",
   }
-  dashboard_ids = { for d in local.dashboard_set : d => local.dashboard_uids[d] }
 }
-
-# resource "null_resource" "debug_dashboard_uids" {
-#   provisioner "local-exec" {
-#     command = "echo ${jsonencode(local.dashboard_uids)} && echo ${jsonencode(local.dashboard_ids)}"
-#   }
-# }
 
 resource "random_string" "random" {
   for_each = local.dashboard_set
