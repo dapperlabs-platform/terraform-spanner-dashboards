@@ -10,10 +10,11 @@ terraform {
 locals {
   dashboard_set = toset(var.dashboards)
   dashboard_uids = {
-    for dashboard_name in var.dashboards :
-    dashboard_name => {
-      uid = random_string.random[dashboard_name].result
-    }
+    "database-dashboard"   = random_string.random["lock-insights"].result,
+    "monitoring-dashboard" = random_string.random["transaction-insights"].result,
+    "query-insights"       = random_string.random["query-details"].result,
+    "read-insights"        = random_string.random["read-details"].result,
+    "transaction-insights" = random_string.random["transaction-details"].result,
   }
 }
 
@@ -41,7 +42,7 @@ resource "grafana_dashboard" "spanner" {
       PROM_DATASOURCE_UID_REPLACE = var.prom_datasource_uid,
       SERVICE_REPLACE             = var.service_name,
       UID_REPLACE                 = random_string.random[each.key].result
-      ALL_UIDS                    = local.dashboard_uids
+      ALT_LINK_UID                = local.dashboard_uids[each.key]
     }
   )
 }

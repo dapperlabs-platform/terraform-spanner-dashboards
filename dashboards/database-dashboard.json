@@ -276,7 +276,7 @@
           "links": [
             {
               "title": "View Lock Insights",
-              "url": "/d/${ALL_UIDS.lock-insights}/lock-insights?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&$${__url_time_range}"
+              "url": "/d/${ALT_LINK_UID}/lock-insights?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&$${__url_time_range}"
             }
           ],
           "mappings": [],
