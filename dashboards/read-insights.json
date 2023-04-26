@@ -1762,6 +1762,7 @@
   "style": "dark",
   "tags": [
     "read-insights",
+    "read-insights-${PRODUCT_REPLACE}-${ENVIRONMENT_REPLACE}",
     "${PRODUCT_REPLACE}",
     "${ENVIRONMENT_REPLACE}",
     "${PROJECT_REPLACE}",

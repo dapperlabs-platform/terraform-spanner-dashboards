@@ -3227,6 +3227,7 @@
   "style": "dark",
   "tags": [
     "query-insights",
+    "query-insights-${PRODUCT_REPLACE}-${ENVIRONMENT_REPLACE}",
     "${PRODUCT_REPLACE}",
     "${ENVIRONMENT_REPLACE}",
     "${PROJECT_REPLACE}",

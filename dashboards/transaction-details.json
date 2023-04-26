@@ -1604,6 +1604,7 @@
   "style": "dark",
   "tags": [
     "transaction-details",
+    "transaction-details-${PRODUCT_REPLACE}-${ENVIRONMENT_REPLACE}",
     "${PRODUCT_REPLACE}",
     "${ENVIRONMENT_REPLACE}",
     "${PROJECT_REPLACE}",

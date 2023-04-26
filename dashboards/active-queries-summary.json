@@ -479,6 +479,7 @@
   "style": "dark",
   "tags": [
     "active-queries-summary",
+    "active-queries-summary-${PRODUCT_REPLACE}-${ENVIRONMENT_REPLACE}",
     "${PRODUCT_REPLACE}",
     "${ENVIRONMENT_REPLACE}",
     "${PROJECT_REPLACE}",
