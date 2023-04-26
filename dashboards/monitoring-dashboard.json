@@ -1499,6 +1499,10 @@
     "list": [
       {
         "allValue": null,
+        "current": {
+          "text": "${PROJECT_REPLACE}",
+          "value": "${PROJECT_REPLACE}"
+        },
         "datasource": "${GCP_DATASOURCE_UID_REPLACE}",
         "definition": "",
         "description": null,

@@ -2928,7 +2928,10 @@
     "list": [
       {
         "allValue": ".*",
-        "current": {},
+        "current": {
+          "text": "${PROJECT_REPLACE}",
+          "value": "${PROJECT_REPLACE}"
+        },
         "datasource": {
           "type": "prometheus",
           "uid": "${PROM_DATASOURCE_UID_REPLACE}"

@@ -995,6 +995,10 @@
     "list": [
       {
         "allValue": null,
+        "current": {
+          "text": "${PROJECT_REPLACE}",
+          "value": "${PROJECT_REPLACE}"
+        },
         "datasource": "${PROM_DATASOURCE_UID_REPLACE}",
         "definition": "label_values(project_id)",
         "description": null,
