@@ -2269,7 +2269,7 @@
                 "value": [
                   {
                     "title": "View Transaction details",
-                    "url": "/d/nh-EjcOnz/transaction-details?var-project=$${__data.fields.Project}&var-instance=$${__data.fields.Instance}&var-database=$${__data.fields.Database}&var-txn_topn=$${__data.fields.Fingerprint}&$${__url_time_range}﻿"
+                    "url": "/d/nh-EjcOnz/transaction-details?var-project=$${__data.fields.Project}&var-instance=$${__data.fields.Instance}&var-database=$${__data.fields.Database}&var-txn_topn=$${__data.fields.Fingerprint}&$${__url_time_range}"
                   }
                 ]
               },
