@@ -30,8 +30,7 @@
       "includeVars": true,
       "keepTime": true,
       "tags": [
-        "cloud-monitoring-instance",
-        "${PRODUCT_REPLACE}-${ENVIRONMENT_REPLACE}"
+        "cloud-monitoring-instance-${PRODUCT_REPLACE}-${ENVIRONMENT_REPLACE}"
       ],
       "targetBlank": false,
       "title": "Instance",
@@ -45,8 +44,7 @@
       "includeVars": true,
       "keepTime": true,
       "tags": [
-        "cloud-monitoring-database",
-        "${PRODUCT_REPLACE}-${ENVIRONMENT_REPLACE}"
+        "cloud-monitoring-database-${PRODUCT_REPLACE}-${ENVIRONMENT_REPLACE}"
       ],
       "targetBlank": false,
       "title": "Database",
@@ -60,8 +58,7 @@
       "includeVars": true,
       "keepTime": true,
       "tags": [
-        "query-insights",
-        "${PRODUCT_REPLACE}-${ENVIRONMENT_REPLACE}"
+        "query-insights-${PRODUCT_REPLACE}-${ENVIRONMENT_REPLACE}"
       ],
       "targetBlank": false,
       "title": "Query Insights",
@@ -75,8 +72,7 @@
       "includeVars": true,
       "keepTime": true,
       "tags": [
-        "transaction-insights",
-        "${PRODUCT_REPLACE}-${ENVIRONMENT_REPLACE}"
+        "transaction-insights-${PRODUCT_REPLACE}-${ENVIRONMENT_REPLACE}"
       ],
       "targetBlank": false,
       "title": "Transaction Insights",
@@ -104,8 +100,7 @@
       "includeVars": true,
       "keepTime": true,
       "tags": [
-        "read-insights",
-        "${PRODUCT_REPLACE}-${ENVIRONMENT_REPLACE}"
+        "read-insights-${PRODUCT_REPLACE}-${ENVIRONMENT_REPLACE}"
       ],
       "targetBlank": false,
       "title": "Read Insights",
