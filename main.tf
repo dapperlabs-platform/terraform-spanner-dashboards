@@ -18,6 +18,12 @@ locals {
   }
 }
 
+resource "null_resource" "debug_dashboard_uids" {
+  provisioner "local-exec" {
+    command = "echo ${jsonencode(local.dashboard_uids)}"
+  }
+}
+
 resource "random_string" "random" {
   for_each = local.dashboard_set
   length   = 12
