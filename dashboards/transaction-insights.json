@@ -1170,7 +1170,7 @@
           "links": [
             {
               "title": "View Transaction details",
-              "url": "/d/${ALL_UIDS[\"transaction-details\"]}/transaction-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-txn_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
+              "url": "/d/${ALL_UIDS[transaction-details]}/transaction-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-txn_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
             }
           ],
           "mappings": [],
@@ -1264,7 +1264,7 @@
           "links": [
             {
               "title": "View Transaction details",
-              "url": "/d/${ALL_UIDS[\"transaction-details\"]}/transaction-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-txn_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
+              "url": "/d/${ALL_UIDS[transaction-details]}/transaction-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-txn_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
             }
           ],
           "mappings": [],
@@ -1362,7 +1362,7 @@
           "links": [
             {
               "title": "View Transaction details",
-              "url": "/d/${ALL_UIDS[\"transaction-details\"]}/transaction-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-txn_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
+              "url": "/d/${ALL_UIDS[transaction-details]}/transaction-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-txn_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
             }
           ],
           "mappings": [],
@@ -1460,7 +1460,7 @@
           "links": [
             {
               "title": "View Transaction details",
-              "url": "/d/${ALL_UIDS[\"transaction-details\"]}/transaction-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-txn_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
+              "url": "/d/${ALL_UIDS[transaction-details]}/transaction-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-txn_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
             }
           ],
           "mappings": [],
@@ -1558,7 +1558,7 @@
           "links": [
             {
               "title": "View Transaction details",
-              "url": "/d/${ALL_UIDS[\"transaction-details\"]}/transaction-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-txn_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
+              "url": "/d/${ALL_UIDS[transaction-details]}/transaction-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-txn_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
             }
           ],
           "mappings": [],
@@ -1652,7 +1652,7 @@
           "links": [
             {
               "title": "View Transaction details",
-              "url": "/d/${ALL_UIDS[\"transaction-details\"]}/transaction-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-txn_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
+              "url": "/d/${ALL_UIDS[transaction-details]}/transaction-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-txn_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
             }
           ],
           "mappings": [],
@@ -1746,7 +1746,7 @@
           "links": [
             {
               "title": "View Transaction details",
-              "url": "/d/${ALL_UIDS[\"transaction-details\"]}/transaction-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-txn_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
+              "url": "/d/${ALL_UIDS[transaction-details]}/transaction-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-txn_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
             }
           ],
           "mappings": [],
@@ -1840,7 +1840,7 @@
           "links": [
             {
               "title": "View Transaction details",
-              "url": "/d/${ALL_UIDS[\"transaction-details\"]}/transaction-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-txn_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
+              "url": "/d/${ALL_UIDS[transaction-details]}/transaction-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-txn_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
             }
           ],
           "mappings": [],
@@ -1934,7 +1934,7 @@
           "links": [
             {
               "title": "View Transaction details",
-              "url": "/d/${ALL_UIDS[\"transaction-details\"]}/transaction-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-txn_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
+              "url": "/d/${ALL_UIDS[transaction-details]}/transaction-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-txn_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
             }
           ],
           "mappings": [],
@@ -2028,7 +2028,7 @@
           "links": [
             {
               "title": "View Transaction details",
-              "url": "/d/${ALL_UIDS[\"transaction-details\"]}/transaction-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-txn_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
+              "url": "/d/${ALL_UIDS[transaction-details]}/transaction-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-txn_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
             }
           ],
           "mappings": [],
@@ -2123,7 +2123,7 @@
           "links": [
             {
               "title": "View Transaction details",
-              "url": "/d/${ALL_UIDS[\"transaction-details\"]}/transaction-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-txn_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
+              "url": "/d/${ALL_UIDS[transaction-details]}/transaction-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-txn_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
             }
           ],
           "mappings": [],
@@ -2269,7 +2269,7 @@
                 "value": [
                   {
                     "title": "View Transaction details",
-                    "url": "/d/${ALL_UIDS[\"transaction-details\"]}/transaction-details?var-project=$${__data.fields.Project}&var-instance=$${__data.fields.Instance}&var-database=$${__data.fields.Database}&var-txn_topn=$${__data.fields.Fingerprint}&$${__url_time_range}"
+                    "url": "/d/${ALL_UIDS[transaction-details]}/transaction-details?var-project=$${__data.fields.Project}&var-instance=$${__data.fields.Instance}&var-database=$${__data.fields.Database}&var-txn_topn=$${__data.fields.Fingerprint}&$${__url_time_range}"
                   }
                 ]
               },

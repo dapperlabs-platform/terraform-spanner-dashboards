@@ -1408,7 +1408,7 @@
           "links": [
             {
               "title": "View Query details",
-              "url": "/d/${ALL_UIDS[\"query-details\"]}/query-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-query_topn=$${__field.labels.query_text}&$${__url_time_range}"
+              "url": "/d/${ALL_UIDS[query-details]}/query-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-query_topn=$${__field.labels.query_text}&$${__url_time_range}"
             }
           ],
           "mappings": [],
@@ -1503,7 +1503,7 @@
           "links": [
             {
               "title": "View Query details",
-              "url": "/d/${ALL_UIDS[\"query-details\"]}/query-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-query_topn=$${__field.labels.query_text}&$${__url_time_range}"
+              "url": "/d/${ALL_UIDS[query-details]}/query-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-query_topn=$${__field.labels.query_text}&$${__url_time_range}"
             }
           ],
           "mappings": [],
@@ -1598,7 +1598,7 @@
           "links": [
             {
               "title": "View Query details",
-              "url": "/d/${ALL_UIDS[\"query-details\"]}/query-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-query_topn=$${__field.labels.query_text}&$${__url_time_range}"
+              "url": "/d/${ALL_UIDS[query-details]}/query-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-query_topn=$${__field.labels.query_text}&$${__url_time_range}"
             }
           ],
           "mappings": [],
@@ -1694,7 +1694,7 @@
           "links": [
             {
               "title": "View Query details",
-              "url": "/d/${ALL_UIDS[\"query-details\"]}/query-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-query_topn=$${__field.labels.query_text}&$${__url_time_range}"
+              "url": "/d/${ALL_UIDS[query-details]}/query-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-query_topn=$${__field.labels.query_text}&$${__url_time_range}"
             }
           ],
           "mappings": [],
@@ -1794,7 +1794,7 @@
           "links": [
             {
               "title": "View Query details",
-              "url": "/d/${ALL_UIDS[\"query-details\"]}/query-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-query_topn=$${__field.labels.query_text}&$${__url_time_range}"
+              "url": "/d/${ALL_UIDS[query-details]}/query-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-query_topn=$${__field.labels.query_text}&$${__url_time_range}"
             }
           ],
           "mappings": [],
@@ -1894,7 +1894,7 @@
           "links": [
             {
               "title": "View Query details",
-              "url": "/d/${ALL_UIDS[\"query-details\"]}/query-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-query_topn=$${__field.labels.query_text}&$${__url_time_range}"
+              "url": "/d/${ALL_UIDS[query-details]}/query-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-query_topn=$${__field.labels.query_text}&$${__url_time_range}"
             }
           ],
           "mappings": [],
@@ -1993,7 +1993,7 @@
           "links": [
             {
               "title": "View Query details",
-              "url": "/d/${ALL_UIDS[\"query-details\"]}/query-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-query_topn=$${__field.labels.query_text}&$${__url_time_range}"
+              "url": "/d/${ALL_UIDS[query-details]}/query-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-query_topn=$${__field.labels.query_text}&$${__url_time_range}"
             }
           ],
           "mappings": [],
@@ -2087,7 +2087,7 @@
           "links": [
             {
               "title": "View Query details",
-              "url": "/d/${ALL_UIDS[\"query-details\"]}/query-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-query_topn=$${__field.labels.query_text}&$${__url_time_range}"
+              "url": "/d/${ALL_UIDS[query-details]}/query-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-query_topn=$${__field.labels.query_text}&$${__url_time_range}"
             }
           ],
           "mappings": [],
@@ -2182,7 +2182,7 @@
           "links": [
             {
               "title": "View Query details",
-              "url": "/d/${ALL_UIDS[\"query-details\"]}/query-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-query_topn=$${__field.labels.query_text}&$${__url_time_range}"
+              "url": "/d/${ALL_UIDS[query-details]}/query-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-query_topn=$${__field.labels.query_text}&$${__url_time_range}"
             }
           ],
           "mappings": [],
@@ -2276,7 +2276,7 @@
           "links": [
             {
               "title": "View Query details",
-              "url": "/d/${ALL_UIDS[\"query-details\"]}/query-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-query_topn=$${__field.labels.query_text}&$${__url_time_range}"
+              "url": "/d/${ALL_UIDS[query-details]}/query-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-query_topn=$${__field.labels.query_text}&$${__url_time_range}"
             }
           ],
           "mappings": [],
@@ -2370,7 +2370,7 @@
           "links": [
             {
               "title": "View Query details",
-              "url": "/d/${ALL_UIDS[\"query-details\"]}/query-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-query_topn=$${__field.labels.query_text}&$${__url_time_range}"
+              "url": "/d/${ALL_UIDS[query-details]}/query-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-query_topn=$${__field.labels.query_text}&$${__url_time_range}"
             }
           ],
           "mappings": [],
@@ -2464,7 +2464,7 @@
           "links": [
             {
               "title": "View Query details",
-              "url": "/d/${ALL_UIDS[\"query-details\"]}/query-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-query_topn=$${__field.labels.query_text}&$${__url_time_range}"
+              "url": "/d/${ALL_UIDS[query-details]}/query-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-query_topn=$${__field.labels.query_text}&$${__url_time_range}"
             }
           ],
           "mappings": [],
@@ -2559,7 +2559,7 @@
           "links": [
             {
               "title": "View Query details",
-              "url": "/d/${ALL_UIDS[\"query-details\"]}/query-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-query_topn=$${__field.labels.query_text}&$${__url_time_range}"
+              "url": "/d/${ALL_UIDS[query-details]}/query-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-query_topn=$${__field.labels.query_text}&$${__url_time_range}"
             }
           ],
           "mappings": [],
@@ -2664,7 +2664,7 @@
                 "value": [
                   {
                     "title": "View Query details",
-                    "url": "/d/${ALL_UIDS[\"query-details\"]}/query-details?var-project=$${__data.fields.Project}&var-instance=$${__data.fields.Instance}&var-database=$${__data.fields.Database}&$${__url_time_range}&var-query_topn=$${__data.fields.Fingerprint}"
+                    "url": "/d/${ALL_UIDS[query-details]}/query-details?var-project=$${__data.fields.Project}&var-instance=$${__data.fields.Instance}&var-database=$${__data.fields.Database}&$${__url_time_range}&var-query_topn=$${__data.fields.Fingerprint}"
                   }
                 ]
               }

@@ -533,7 +533,7 @@
                 "value": [
                   {
                     "title": "View Transaction Insights",
-                    "url": "/d/${ALL_UIDS[\"transaction-insights\"]}/transaction-insights?$${__all_variables}&var-query_topn=All&$${__url_time_range}"
+                    "url": "/d/${ALL_UIDS[transaction-insights]}/transaction-insights?$${__all_variables}&var-query_topn=All&$${__url_time_range}"
                   }
                 ]
               }
