@@ -761,7 +761,7 @@
               "links": [
                 {
                   "title": "View Read details",
-                  "url": "/d/amO53Tdnz/read-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-read_columns_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
+                  "url": "/d/${ALL_UIDS['read-details']}/read-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-read_columns_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
                 }
               ],
               "mappings": [],
@@ -855,7 +855,7 @@
               "links": [
                 {
                   "title": "View Read details",
-                  "url": "/d/amO53Tdnz/read-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-read_columns_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
+                  "url": "/d/${ALL_UIDS['read-details']}/read-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-read_columns_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
                 }
               ],
               "mappings": [],
@@ -947,7 +947,7 @@
               "links": [
                 {
                   "title": "View Read details",
-                  "url": "/d/amO53Tdnz/read-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-read_columns_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
+                  "url": "/d/${ALL_UIDS['read-details']}/read-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-read_columns_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
                 }
               ],
               "mappings": [],
@@ -1038,7 +1038,7 @@
               "links": [
                 {
                   "title": "View Read details",
-                  "url": "/d/amO53Tdnz/read-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-read_columns_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
+                  "url": "/d/${ALL_UIDS['read-details']}/read-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-read_columns_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
                 }
               ],
               "mappings": [],
@@ -1130,7 +1130,7 @@
               "links": [
                 {
                   "title": "View Read details",
-                  "url": "/d/amO53Tdnz/read-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-read_columns_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
+                  "url": "/d/${ALL_UIDS['read-details']}/read-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-read_columns_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
                 }
               ],
               "mappings": [],
@@ -1224,7 +1224,7 @@
               "links": [
                 {
                   "title": "View Read details",
-                  "url": "/d/amO53Tdnz/read-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-read_columns_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
+                  "url": "/d/${ALL_UIDS['read-details']}/read-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-read_columns_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
                 }
               ],
               "mappings": [],
@@ -1316,7 +1316,7 @@
               "links": [
                 {
                   "title": "View Read details",
-                  "url": "/d/amO53Tdnz/read-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-read_columns_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
+                  "url": "/d/${ALL_UIDS['read-details']}/read-details?var-project=$${__field.labels.project_id}&var-instance=$${__field.labels.instance_id}&var-database=$${__field.labels.database}&var-read_columns_topn=$${__field.labels.fingerprint}&$${__url_time_range}"
                 }
               ],
               "mappings": [],
@@ -1410,7 +1410,7 @@
                     "value": [
                       {
                         "title": "View Read details",
-                        "url": "/d/amO53Tdnz/read-details?var-project=$${__data.fields.Project}&var-instance=$${__data.fields.Instance}&var-database=$${__data.fields.Database}&var-read_columns_topn=$${__data.fields.Fingerprint}&$${__url_time_range}"
+                        "url": "/d/${ALL_UIDS['read-details']}/read-details?var-project=$${__data.fields.Project}&var-instance=$${__data.fields.Instance}&var-database=$${__data.fields.Database}&var-read_columns_topn=$${__data.fields.Fingerprint}&$${__url_time_range}"
                       }
                     ]
                   },
