@@ -1520,23 +1520,6 @@
   "templating": {
     "list": [
       {
-        "allValue": null,
-        "description": "Prometheus data source",
-        "error": null,
-        "hide": 0,
-        "includeAll": false,
-        "label": "Prometheus",
-        "multi": false,
-        "name": "pds",
-        "options": [],
-        "query": "prometheus",
-        "queryValue": "",
-        "refresh": 1,
-        "regex": "",
-        "skipUrlSync": false,
-        "type": "datasource"
-      },
-      {
         "allValue": ".*",
         "datasource": "${PROM_DATASOURCE_UID_REPLACE}",
         "definition": "label_values(project_id)",
