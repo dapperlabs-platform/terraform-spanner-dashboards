@@ -48,7 +48,7 @@ resource "grafana_dashboard" "spanner" {
       PROM_DATASOURCE_UID_REPLACE = var.prom_datasource_uid,
       SERVICE_REPLACE             = var.service_name,
       UID_REPLACE                 = random_string.random[each.key].result
-      ALT_LINK_UID                = local.dashboard_uids[each.key]
+      ALT_LINK_UID                = "nope"
     }
   )
 }
