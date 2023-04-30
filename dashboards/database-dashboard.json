@@ -902,7 +902,6 @@
   "style": "dark",
   "tags": [
     "cloud-monitoring-database",
-    "cloud-monitoring-database-${PRODUCT_REPLACE}-${ENVIRONMENT_REPLACE}",
     "${PRODUCT_REPLACE}",
     "${ENVIRONMENT_REPLACE}",
     "${PROJECT_REPLACE}",

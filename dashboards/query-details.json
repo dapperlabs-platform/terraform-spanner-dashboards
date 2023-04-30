@@ -978,7 +978,6 @@
   "style": "dark",
   "tags": [
     "query-details",
-    "query-details-${PRODUCT_REPLACE}-${ENVIRONMENT_REPLACE}",
     "${PRODUCT_REPLACE}",
     "${ENVIRONMENT_REPLACE}",
     "${PROJECT_REPLACE}",
