@@ -2918,7 +2918,6 @@
   "style": "dark",
   "tags": [
     "transaction-insights",
-    "transaction-insights-${PRODUCT_REPLACE}-${ENVIRONMENT_REPLACE}",
     "${PRODUCT_REPLACE}",
     "${ENVIRONMENT_REPLACE}",
     "${PROJECT_REPLACE}",

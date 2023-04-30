@@ -405,7 +405,6 @@
   "style": "dark",
   "tags": [
     "lock-insights",
-    "lock-insights-${PRODUCT_REPLACE}-${ENVIRONMENT_REPLACE}",
     "${PRODUCT_REPLACE}",
     "${ENVIRONMENT_REPLACE}",
     "${PROJECT_REPLACE}",
